@@ -1,0 +1,209 @@
+{
+    "name": "vanguard",
+    "width": 327,
+    "height": 477,
+    "elements":
+    [
+        {
+            "name": "effect-box",
+            "type": "text-box",
+            "x": 10,
+            "y": 278,
+            "margin": 10,
+            "font": {
+                "family": "Optima-Thin", 
+                "size": 12, 
+                "weight": "normal",
+                "color": "black"
+            },
+            "transparency": 0.75,
+            "layer":  {
+                "file": "layers/vanguard/effect-box.png"
+            },
+            "mappings": {
+                "effects": {
+                }
+            }
+        },{
+            "name": "bottom",
+            "type": "layer",
+            "x": 0,
+            "y": 400,
+            "transparency": 1.0,
+            "layer":  {
+                "file": "layers/vanguard/bottom.png"
+            }
+        },{
+            "name": "name-box",
+            "type": "text-box",
+            "x": 90,
+            "y": 399,
+            "width": 200,
+            "height": 20,
+            "margin": 0,
+            "font": {
+                "family": "Optima-Thin", 
+                "size": 18,
+                "weight": "bold",
+                "color": "black"
+            },
+            "transparency": 1.0,
+            "mappings": {
+                "cardName": {
+                }
+            }
+        },{
+            "name": "grade0",
+            "type": "layer",
+            "x": 5,
+            "y": 5,
+            "transparency": 1.0,
+            "condition": "grade == 0",
+            "layer":  {
+                "file": "layers/vanguard/grade0.png"
+            }
+        },{
+            "name": "grade1",
+            "type": "layer",
+            "x": 5,
+            "y": 5,
+            "transparency": 1.0,
+            "condition": "grade == 1",
+            "layer":  {
+                "file": "layers/vanguard/grade1.png"
+            }
+        },{
+            "name": "grade2",
+            "type": "layer",
+            "x": 5,
+            "y": 5,
+            "transparency": 1.0,
+            "condition": "grade == 2",
+            "layer":  {
+                "file": "layers/vanguard/grade2.png"
+            }
+        },{
+            "name": "grade3",
+            "type": "layer",
+            "x": 5,
+            "y": 5,
+            "transparency": 1.0,
+            "condition": "grade == 3",
+            "layer":  {
+                "file": "layers/vanguard/grade3.png"
+            }
+        },{
+            "name": "trigger-critical",
+            "type": "layer",
+            "x": 264,
+            "y": 7,
+            "transparency": 1.0,
+            "condition": "trigger == critical",
+            "layer":  {
+                "file": "layers/vanguard/critical-trigger.png"
+            }
+        },{
+            "name": "trigger-heal",
+            "type": "layer",
+            "x": 264,
+            "y": 7,
+            "transparency": 1.0,
+            "condition": "trigger == heal",
+            "layer":  {
+                "file": "layers/vanguard/heal-trigger.png"
+            }
+        },{
+            "name": "trigger-draw",
+            "type": "layer",
+            "x": 264,
+            "y": 7,
+            "transparency": 1.0,
+            "condition": "trigger == draw",
+            "layer":  {
+                "file": "layers/vanguard/draw-trigger.png"
+            }
+        },{
+            "name": "trigger-stand",
+            "type": "layer",
+            "x": 264,
+            "y": 7,
+            "transparency": 1.0,
+            "condition": "trigger == stand",
+            "layer":  {
+                "file": "layers/vanguard/stand-trigger.png"
+            }
+        },{
+            "name": "shield-5000",
+            "type": "layer",
+            "x": 0,
+            "y": 110,
+            "transparency": 1.0,
+            "condition": "shield == 5000",
+            "layer":  {
+                "file": "layers/vanguard/shield-5000.png"
+            }
+        },{
+            "name": "shield-10000",
+            "type": "layer",
+            "x": 0,
+            "y": 110,
+            "transparency": 1.0,
+            "condition": "shield == 10000",
+            "layer":  {
+                "file": "layers/vanguard/shield-10000.png"
+            }
+        },{
+            "name": "shield-0",
+            "type": "layer",
+            "x": 0,
+            "y": 110,
+            "transparency": 1.0,
+            "condition": "shield == 0",
+            "layer":  {
+                "file": "layers/vanguard/shield-0.png"
+            }
+        }
+    ],
+    "resources" : [
+        {
+            "name" : "act",
+            "file" : "resources/vanguard/act.png"
+        },{
+            "name" : "auto",
+            "file" : "resources/vanguard/auto.png"
+        },{
+            "name" : "cont",
+            "file" : "resources/vanguard/cont.png"
+        },{
+            "name" : "vanguard",
+            "file" : "resources/vanguard/v.png"
+        },{
+            "name" : "rearguard",
+            "file" : "resources/vanguard/r.png"
+        },{
+            "name" : "guardian",
+            "file" : "resources/vanguard/g.png"
+        },{
+            "name" : "stand",
+            "file" : "resources/vanguard/stand.png"
+        },{
+            "name" : "rest",
+            "file" : "resources/vanguard/rest.png"
+        },{
+            "name" : "boost",
+            "file" : "resources/vanguard/boost.png"
+        },{
+            "name" : "intercept",
+            "file" : "resources/vanguard/intercept.png"
+        },{
+            "name" : "dualdrive",
+            "file" : "resources/vanguard/dualdrive.png"
+        },{
+            "name" : "sword",
+            "file" : "resources/vanguard/sword.png"
+        },{
+            "name" : "critical",
+            "file" : "resources/vanguard/critical.png"
+        }
+    ]
+}
