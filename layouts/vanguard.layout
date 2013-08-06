@@ -9,7 +9,8 @@
             "type": "text-box",
             "x": 10,
             "y": 278,
-            "margin": 10,
+            "margin-x": 10,
+            "margin-y": 10,
             "font": {
                 "family": "Optima-Thin", 
                 "size": 12, 
@@ -25,6 +26,48 @@
                 }
             }
         },{
+            "name": "clan-blue",
+            "type": "layer",
+            "x": 178,
+            "y": 425,
+            "transparency": 1.0,
+            "condition": "clan == blue",
+            "layer":  {
+                "r": 0,
+                "g": 0,
+                "b": 255,
+                "width": 106,
+                "height": 52
+            }
+        },{
+            "name": "clan-red",
+            "type": "layer",
+            "x": 178,
+            "y": 425,
+            "transparency": 1.0,
+            "condition": "clan == red",
+            "layer":  {
+                "r": 255,
+                "g": 0,
+                "b": 0,
+                "width": 106,
+                "height": 52
+            }
+        },{
+            "name": "clan-green",
+            "type": "layer",
+            "x": 178,
+            "y": 425,
+            "transparency": 1.0,
+            "condition": "clan == green",
+            "layer":  {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "width": 106,
+                "height": 52
+            }
+        },{
             "name": "bottom",
             "type": "layer",
             "x": 0,
@@ -36,11 +79,13 @@
         },{
             "name": "name-box",
             "type": "text-box",
-            "x": 90,
-            "y": 399,
+            "x": 81,
+            "y": 405,
             "width": 200,
             "height": 20,
-            "margin": 0,
+            "margin-x": 5,
+            "margin-y": 2,
+            "word-wrap": false,
             "font": {
                 "family": "Optima-Thin", 
                 "size": 18,
@@ -50,6 +95,27 @@
             "transparency": 1.0,
             "mappings": {
                 "cardName": {
+                }
+            }
+        },{
+            "name": "power-box",
+            "type": "text-box",
+            "x": 54,
+            "y": 430,
+            "width": 73,
+            "height": 20,
+            "margin-x": 5,
+            "margin-y": 3,
+            "word-wrap": false,
+            "font": {
+                "family": "Optima-Thin", 
+                "size": 22,
+                "weight": "bold",
+                "color": "yellow"
+            },
+            "transparency": 1.0,
+            "mappings": {
+                "power": {
                 }
             }
         },{
