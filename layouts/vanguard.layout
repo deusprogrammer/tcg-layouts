@@ -13,9 +13,13 @@
             "margin-y": 10,
             "font": {
                 "family": "Optima-Thin", 
-                "size": 12, 
+                "size": 11, 
                 "weight": "normal",
-                "color": "black"
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                }
             },
             "transparency": 0.75,
             "layer":  {
@@ -31,11 +35,13 @@
             "x": 178,
             "y": 425,
             "transparency": 1.0,
-            "condition": "clan == blue",
+            "condition": "clan in Bermuda Triangle, Aqua Force, Pale Moon",
             "layer":  {
-                "r": 0,
-                "g": 0,
-                "b": 255,
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 255
+                },
                 "width": 106,
                 "height": 52
             }
@@ -45,11 +51,13 @@
             "x": 178,
             "y": 425,
             "transparency": 1.0,
-            "condition": "clan == red",
+            "condition": "clan in Narukami, Kagero",
             "layer":  {
-                "r": 255,
-                "g": 0,
-                "b": 0,
+                "color": {
+                    "r": 255,
+                    "g": 0,
+                    "b": 0
+                },
                 "width": 106,
                 "height": 52
             }
@@ -59,11 +67,29 @@
             "x": 178,
             "y": 425,
             "transparency": 1.0,
-            "condition": "clan == green",
+            "condition": "clan in Mega Colony, Great Nature",
             "layer":  {
-                "r": 0,
-                "g": 255,
-                "b": 0,
+                "color": {
+                    "r": 0,
+                    "g": 255,
+                    "b": 0
+                },
+                "width": 106,
+                "height": 52
+            }
+        },{
+            "name": "clan-purple",
+            "type": "layer",
+            "x": 178,
+            "y": 425,
+            "transparency": 1.0,
+            "condition": "clan in Equestria, Changlings",
+            "layer":  {
+                "color": {
+                    "r": 199,
+                    "g": 57,
+                    "b": 212
+                },
                 "width": 106,
                 "height": 52
             }
@@ -83,18 +109,72 @@
             "y": 405,
             "width": 200,
             "height": 20,
-            "margin-x": 5,
             "margin-y": 2,
             "word-wrap": false,
+            "align": "center",
             "font": {
                 "family": "Optima-Thin", 
                 "size": 18,
                 "weight": "bold",
-                "color": "black"
+                "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                }
             },
             "transparency": 1.0,
             "mappings": {
                 "cardName": {
+                }
+            }
+        },{
+            "name": "clan-box",
+            "type": "text-box",
+            "x": 188,
+            "y": 431,
+            "width": 85,
+            "height": 13,
+            "margin-y": 2,
+            "word-wrap": false,
+            "align": "center",
+            "font": {
+                "family": "Optima-Thin", 
+                "size": 11,
+                "weight": "plain",
+                "color": {
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                }
+            },
+            "transparency": 1.0,
+            "mappings": {
+                "clan": {
+                }
+            }
+        },{
+            "name": "race-box",
+            "type": "text-box",
+            "x": 200,
+            "y": 446,
+            "width": 62,
+            "height": 8,
+            "margin-y": 0,
+            "word-wrap": false,
+            "align": "center",
+            "font": {
+                "family": "Optima-Thin", 
+                "size": 10,
+                "weight": "plain",
+                "color": {
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                }
+            },
+            "transparency": 1.0,
+            "mappings": {
+                "race": {
                 }
             }
         },{
@@ -104,14 +184,18 @@
             "y": 430,
             "width": 73,
             "height": 20,
-            "margin-x": 5,
             "margin-y": 3,
             "word-wrap": false,
+            "align": "center",
             "font": {
                 "family": "Optima-Thin", 
                 "size": 22,
-                "weight": "bold",
-                "color": "yellow"
+                "weight": "bold-italic",
+                "color": {
+                    "r": 212,
+                    "g": 201,
+                    "b": 57
+                }
             },
             "transparency": 1.0,
             "mappings": {
