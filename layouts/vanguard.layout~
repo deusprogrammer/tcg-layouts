@@ -147,7 +147,7 @@
             "name": "clan-box",
             "type": "text-box",
             "x": 190,
-            "y": 433,
+            "y": 431,
             "width": 85,
             "height": 13,
             "word-wrap": false,
